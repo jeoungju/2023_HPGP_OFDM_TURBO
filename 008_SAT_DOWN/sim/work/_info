@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\PLC_turbo\001_M_LEN\sim
+vde0_memory
+Z1 !s100 nnbKmGmB74L05haj82MF90
+Z2 IMECY<305JdkdikJJiZzgS3
+Z3 V=dP9`jZNC4=aHNc=7TR2d2
+Z4 dD:\PLC_turbo\002_WEN\sim
+Z5 w1696937639
+Z6 8../src/rtl/MEMORY/turbo_mem.v
+Z7 F../src/rtl/MEMORY/turbo_mem.v
+L0 38
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1696998745.458000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/top.v|../src/rtl/MEMORY/turbo_mem.v|../src/rtl/MEMORY/ram_dual.v|../src/rtl/MEMORY/rom_itl.v|../src/rtl/ENABLE/turbo_len.v|../src/rtl/ENABLE/id_encoder.v|../src/rtl/ENABLE/gen_en.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vgen_en
+!i10b 1
+!s100 P`__?anUE6la0;UhMJznE0
+I1PznEk;mFoF77m^8[?PEf2
+Z12 VJT7on`iD[]P]bfk<D<^kU3
+Z13 dD:\PLC_turbo\008_SAT_DOWN\sim
+w1701100597
+Z14 8../src/rtl/ENABLE/gen_en.v
+Z15 F../src/rtl/ENABLE/gen_en.v
+L0 7
+R8
+r1
+!s85 0
+31
+Z16 !s108 1701100755.859000
+Z17 !s107 ../testbench/testbench.v|../src/rtl/top.v|../src/rtl/MEMORY/ram_dual.v|../src/rtl/ENABLE/turbo_len.v|../src/rtl/ENABLE/id_encoder.v|../src/rtl/ENABLE/gen_en.v|
+R11
+!s101 -O0
+o-O0
+vid_encoder
+!i10b 1
+Z18 !s100 584jVO`:;YmmOE01a:I]l0
+Z19 I78IfJjZ_LCdM43dfn:aVm3
+Z20 V9dcZNfB;K`jghaA1660`L2
+R13
+w1701100599
+Z21 8../src/rtl/ENABLE/id_encoder.v
+Z22 F../src/rtl/ENABLE/id_encoder.v
+L0 7
+R8
+r1
+!s85 0
+31
+R16
+R17
+R11
+!s101 -O0
+o-O0
+vram_dual
+!i10b 1
+!s100 a3?gCf1G?oW3ekmAP<L4;2
+Ib9f_l:CUj]X^b3SHThago2
+Z23 Vh5fP_a<FzUhD`E7Mb6akJ3
+R13
+w1701100605
+Z24 8../src/rtl/MEMORY/ram_dual.v
+Z25 F../src/rtl/MEMORY/ram_dual.v
+L0 6
+R8
+r1
+!s85 0
+31
+R16
+R17
+R11
+!s101 -O0
+o-O0
+vrom
+Z26 !s100 j4PiI]Z1[BdbHaX?0o7nV2
+Z27 ID^C>GSnRF_7a:AVBNF>Tn2
+Z28 V1c@R7>RdZDHh8]HeG3ZWi0
+Z29 dD:\PLC_turbo\001_M_LEN\sim
+Z30 w1695749616
+Z31 8../src/rtl/MEMORY/rom.v
+Z32 F../src/rtl/MEMORY/rom.v
+L0 3
+R8
+r1
+31
+Z33 !s108 1695816036.803000
+Z34 !s107 ../testbench/testbench.v|../src/rtl/top.v|../src/rtl/MEMORY/turbo_mem.v|../src/rtl/MEMORY/rom.v|../src/rtl/ENABLE/turbo_len.v|../src/rtl/ENABLE/id_encoder.v|../src/rtl/ENABLE/gen_en.v|
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vrom_itl
+Z35 !s100 ;cTTUZV<k9GABH`77<@B21
+Z36 IfmBM@oh@cAbZW6UO2>f5R1
+Z37 VICCD36ko8MU[:n@a`h@@^2
+R4
+Z38 w1696906743
+Z39 8../src/rtl/MEMORY/rom_itl.v
+Z40 F../src/rtl/MEMORY/rom_itl.v
+L0 3
+R8
+r1
+31
+R9
+R10
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vterbo_mem
+Z41 !s100 _W:1P3jl7K0z2Yi[1U0ch3
+Z42 IW4dbOA;OFeFU]_<nlbUi:0
+Z43 V2[W@n@i]4bCBL]>;aBmz62
+R4
+R5
+R6
+R7
+L0 3
+R8
+r1
+31
+R9
+R10
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 hhOS<5Q80C;AKQ@BV458E1
+Im31g<J;5oDDM_R;;WMeO@2
+Z44 VhGfW:390DM[oDMzegDH9`2
+R13
+w1701100733
+Z45 8../testbench/testbench.v
+Z46 F../testbench/testbench.v
+L0 8
+R8
+r1
+!s85 0
+31
+R16
+R17
+R11
+!s101 -O0
+o-O0
+vtop
+!i10b 1
+Z47 !s100 HlW=6cm1SA1<mX^k@_;nV2
+Z48 IQDemcTm59@00^5Ei3YAUG3
+Z49 V5oMUA36FbKWLdZZ?JPk;;0
+R13
+w1701087458
+Z50 8../src/rtl/top.v
+Z51 F../src/rtl/top.v
+L0 6
+R8
+r1
+!s85 0
+31
+R16
+R17
+R11
+!s101 -O0
+o-O0
+vturbo_len
+!i10b 1
+Z52 !s100 :<U`FS:oM9;SceC3Z0D1]1
+Z53 IG0=mYb[fF>2bcah_iE6z=3
+Z54 VBjJLbQRN?Qb3^[^^10[Ik3
+R13
+w1701100600
+Z55 8../src/rtl/ENABLE/turbo_len.v
+Z56 F../src/rtl/ENABLE/turbo_len.v
+L0 6
+R8
+r1
+!s85 0
+31
+R16
+R17
+R11
+!s101 -O0
+o-O0

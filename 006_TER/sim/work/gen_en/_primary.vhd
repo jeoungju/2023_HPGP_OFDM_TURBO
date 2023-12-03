@@ -1,0 +1,22 @@
+library verilog;
+use verilog.vl_types.all;
+entity gen_en is
+    generic(
+        STATE_LEN       : integer := 3;
+        ADDRESS         : integer := 16
+    );
+    port(
+        clk             : in     vl_logic;
+        n_rst           : in     vl_logic;
+        din_vld         : in     vl_logic;
+        request         : in     vl_logic;
+        m_len           : in     vl_logic_vector(12 downto 0);
+        enable          : out    vl_logic_vector(15 downto 0);
+        id_offset       : out    vl_logic_vector(15 downto 0);
+        wen             : out    vl_logic;
+        dout_vld        : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of STATE_LEN : constant is 1;
+    attribute mti_svvh_generic_type of ADDRESS : constant is 1;
+end gen_en;

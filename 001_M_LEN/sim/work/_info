@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\PLC_turbo\001_M_LEN\sim
+vde0_memory
+!i10b 1
+!s100 989ggkbn:OlJzN8iFK]9;1
+I^Rz7`3R5[3BC4Uac@K^aT1
+V=dP9`jZNC4=aHNc=7TR2d2
+Z1 dD:\PLC_turbo\001_M_LEN\sim
+Z2 w1695815974
+Z3 8../src/rtl/MEMORY/turbo_mem.v
+Z4 F../src/rtl/MEMORY/turbo_mem.v
+L0 24
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1695816036.803000
+Z7 !s107 ../testbench/testbench.v|../src/rtl/top.v|../src/rtl/MEMORY/turbo_mem.v|../src/rtl/MEMORY/rom.v|../src/rtl/ENABLE/turbo_len.v|../src/rtl/ENABLE/id_encoder.v|../src/rtl/ENABLE/gen_en.v|
+Z8 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vgen_en
+!i10b 1
+Z9 !s100 cRPMa1kIM[db9`<mEhShz3
+Z10 IT33N;FQLz_0iDQZ5<HoPJ2
+Z11 VVdQbADhJh8AWdA7;QFzSa0
+R1
+Z12 w1695789397
+Z13 8../src/rtl/ENABLE/gen_en.v
+Z14 F../src/rtl/ENABLE/gen_en.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vid_encoder
+!i10b 1
+Z15 !s100 @TLckQEfEYP9VB3cWXXG^1
+Z16 IBUUf`c;7I5jT52BYP:XCD1
+Z17 VOVV`9P^HO0PlzKz_CVH^F2
+R1
+Z18 w1695756814
+Z19 8../src/rtl/ENABLE/id_encoder.v
+Z20 F../src/rtl/ENABLE/id_encoder.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vrom
+!i10b 1
+Z21 !s100 j4PiI]Z1[BdbHaX?0o7nV2
+Z22 ID^C>GSnRF_7a:AVBNF>Tn2
+Z23 V1c@R7>RdZDHh8]HeG3ZWi0
+R1
+Z24 w1695749616
+Z25 8../src/rtl/MEMORY/rom.v
+Z26 F../src/rtl/MEMORY/rom.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vterbo_mem
+!i10b 1
+!s100 @VWY]`>TS:hk7HO0UH>iO2
+IAbPidV_[RC2aU9>S`ji?01
+V]1IP0]6OF7<<0c@M^3Q2G0
+R1
+R2
+R3
+R4
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z27 !s100 A6LR=3MPm6n`RQk5ki9:[0
+Z28 ISk@e0=j:>VSP=XF[G[C9O0
+Z29 VhGfW:390DM[oDMzegDH9`2
+R1
+Z30 w1695788370
+Z31 8../testbench/testbench.v
+Z32 F../testbench/testbench.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vtop
+!i10b 1
+Z33 !s100 4<>`jFP<b@@HW:DTfE<mh0
+Z34 IRjbmTjP7e0?V_zdf0IP?>2
+Z35 Vj^<nbRVZzN1LYNWTlSGTi3
+R1
+Z36 w1695748949
+Z37 8../src/rtl/top.v
+Z38 F../src/rtl/top.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vturbo_len
+!i10b 1
+Z39 !s100 TEFE]K3oL0ndD1RR4a1^z0
+Z40 I6b9m]J??@WK@Zjm5mhSLk1
+Z41 VWobSe964R>K?I:o9FO`;d1
+R1
+Z42 w1695748942
+Z43 8../src/rtl/ENABLE/turbo_len.v
+Z44 F../src/rtl/ENABLE/turbo_len.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0

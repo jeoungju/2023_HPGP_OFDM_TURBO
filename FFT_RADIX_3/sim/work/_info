@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\PLC_turbo\FFT_RADIX_3\sim
+vadd
+!i10b 1
+Z1 !s100 VCfGbZE92mNR3TcW9N_KP1
+Z2 IfJWXNXbCATj^QN9^?ee8m0
+Z3 VMafmaIm1IUB]]5ziaE:U50
+Z4 dD:\PLC_turbo\FFT_RADIX_3\sim
+Z5 w1699861668
+Z6 8../src/rtl/add.v
+Z7 F../src/rtl/add.v
+L0 2
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1701319823.543000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/rd3bf.v|../src/rtl/complex_signed_mult.v|../src/rtl/add_input3.v|../src/rtl/add.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vadd_input3
+!i10b 1
+Z12 !s100 B>CQcB1:bLQdU1kOPkQ=C3
+Z13 INlcVLklcD6zNMio@_]36b1
+Z14 VAn??^DN?4LzE]HJFFlPM^2
+R4
+Z15 w1700046183
+Z16 8../src/rtl/add_input3.v
+Z17 F../src/rtl/add_input3.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vadd_input3_bitup
+Z18 !s100 MDng7S2A<nhn`mZKZgH2E1
+Z19 Ie^kXRV5W_7B52C3RI8h`71
+Z20 VkmPgQ6BYWTF3_[:nSmF0g1
+R4
+Z21 w1699937307
+Z22 8../src/rtl/add_input3_bitup.v
+Z23 F../src/rtl/add_input3_bitup.v
+L0 2
+R8
+r1
+31
+Z24 !s108 1700006026.072000
+Z25 !s107 ../testbench/testbench.v|../src/rtl/rd3bf.v|../src/rtl/complex_signed_mult.v|../src/rtl/add_input3_bitup.v|../src/rtl/add_input3.v|../src/rtl/add.v|
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vcomplex_signed_mult
+!i10b 1
+Z26 !s100 PP[ETZXGzY_<eI^AI0^TP1
+Z27 IM<B:FJIK5Sg<0=WGV458^1
+Z28 VVTVAY5aJUmLacm_Wdj:[d3
+R4
+R5
+Z29 8../src/rtl/complex_signed_mult.v
+Z30 F../src/rtl/complex_signed_mult.v
+L0 38
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vrd3bf
+!i10b 1
+Z31 !s100 C<]7O=@oE5oNj>mGZcN;c2
+Z32 IOT^9hSmL=<A78oAb?aP`X1
+Z33 V9oKND>alS8m5^McekB:IR2
+R4
+Z34 w1701271324
+Z35 8../src/rtl/rd3bf.v
+Z36 F../src/rtl/rd3bf.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z37 !s100 VeVUBYn4RCW30fBVI0N3=2
+Z38 I;E1E0A[PC6aiJLDX^LZFY2
+Z39 V1NJP^H8YF`>[_EAE^FPD53
+R4
+Z40 w1701272680
+Z41 8../testbench/testbench.v
+Z42 F../testbench/testbench.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
