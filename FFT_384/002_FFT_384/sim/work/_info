@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\PLC_turbo\FFT_384\002_FFT_384\sim
+vcomplex_signed_mult
+!i10b 1
+Z1 !s100 FmH>@Sn87QZ3YARWn4E:`3
+Z2 Im3FdfhSnC;P8EHBFb24[J1
+Z3 VVTVAY5aJUmLacm_Wdj:[d3
+Z4 dD:\PLC_turbo\FFT_384\002_FFT_384\sim
+Z5 w1705437194
+Z6 8../src/rtl/complex_signed_mult.v
+Z7 F../src/rtl/complex_signed_mult.v
+L0 41
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1705492929.934000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/complex_signed_mult.v|../src/rtl/full_384.v|../src/rtl/rom_384_decoder.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vfull_384
+!i10b 1
+Z12 !s100 NbN>]P9D:MW0VmWVXQoQN2
+Z13 I2dM1jJg5i_e`[^0K6]4eg0
+Z14 VhNBj4bMT]EjK2G5`M^3iJ2
+R4
+Z15 w1705484525
+Z16 8../src/rtl/full_384.v
+Z17 F../src/rtl/full_384.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vrom_384_decoder
+!i10b 1
+Z18 !s100 VfSfa1I3@ZA]INMFzjB_`1
+Z19 I5ecz1_?Und;DOVTzTg9i41
+Z20 V;@1WLE24RflI_bEI`d:cl1
+R4
+Z21 w1705430424
+Z22 8../src/rtl/rom_384_decoder.v
+Z23 F../src/rtl/rom_384_decoder.v
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+!s100 =h@nHJR`h<IaG_O3BZ58B1
+IgOH1hB4YND8TIb_L=Y51h1
+Z24 VXK70S0^?7hW[SD>bLRf;Y0
+R4
+w1705492923
+Z25 8../testbench/testbench.v
+Z26 F../testbench/testbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0

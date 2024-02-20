@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\PLC_turbo\FFT_384\001_DECORDER\sim
+vrom_384
+!i10b 1
+!s100 L:cDVe<?@`d>>DC6fGFoA1
+I6a@?L1>UmcF:4S1e?0OJL3
+VfA[=5za@fb89<_>V_G3NM1
+Z1 dD:\PLC_turbo\FFT_384\001_DECORDER\sim
+w1705402037
+Z2 8../src/rtl/rom_384.v
+Z3 F../src/rtl/rom_384.v
+L0 4
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z5 !s108 1705402039.854000
+Z6 !s107 ../testbench/testbench.v|../src/rtl/rom_384.v|
+Z7 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z8 !s100 9hhd@:FYCMR0QZacIQhk^1
+Z9 IBIE@Ij;m6L]V[<2CMbiH82
+Z10 VXK70S0^?7hW[SD>bLRf;Y0
+R1
+Z11 w1705401947
+Z12 8../testbench/testbench.v
+Z13 F../testbench/testbench.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+o-O0
