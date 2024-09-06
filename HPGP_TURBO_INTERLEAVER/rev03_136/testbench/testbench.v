@@ -24,6 +24,7 @@ module testbench();
         //.rdata_ditl(rdata_ditl),
         .dout_vld(dout_vld)
     );
+    
 
     always #5 clk = ~clk;
     initial begin
